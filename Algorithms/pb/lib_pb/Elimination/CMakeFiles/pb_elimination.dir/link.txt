@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpb_elimination.a  CMakeFiles/pb_elimination.dir/Elimination.o CMakeFiles/pb_elimination.dir/LazyElimination.o
+/usr/bin/ranlib libpb_elimination.a

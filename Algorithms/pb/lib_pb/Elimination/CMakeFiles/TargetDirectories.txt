@@ -1,0 +1,3 @@
+/home/richard/下载/superpixels-revisited-master/lib_pb/Elimination/CMakeFiles/edit_cache.dir
+/home/richard/下载/superpixels-revisited-master/lib_pb/Elimination/CMakeFiles/rebuild_cache.dir
+/home/richard/下载/superpixels-revisited-master/lib_pb/Elimination/CMakeFiles/pb_elimination.dir

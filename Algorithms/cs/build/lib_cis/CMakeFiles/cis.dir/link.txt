@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libcis.a  CMakeFiles/cis.dir/maxflow.cpp.o CMakeFiles/cis.dir/graph.cpp.o CMakeFiles/cis.dir/superpixels.cpp.o
+/usr/bin/ranlib ../../lib/libcis.a

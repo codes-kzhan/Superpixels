@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libvlib.a  CMakeFiles/vlib.dir/utils/canny.cpp.o CMakeFiles/vlib.dir/utils/dilate.cpp.o CMakeFiles/vlib.dir/utils/dt.cpp.o CMakeFiles/vlib.dir/utils/grad.cpp.o CMakeFiles/vlib.dir/utils/pyramid.cpp.o CMakeFiles/vlib.dir/utils/smooth.cpp.o
+/usr/bin/ranlib ../../../lib/libvlib.a

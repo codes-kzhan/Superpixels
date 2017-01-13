@@ -1,0 +1,9 @@
+This package implements the baseline algorithm for example based scene parsing in 
+"Jimei Yang, Brian Price, Scott Cohen and Ming-Hsuan Yang, Context-Driven Scene Parsing with Attention to Rare Classes, CVPR 2014"
+
+All the source codes are in the 'code' folder. We provide a demo dataset 'Make3D' in the 'datasets' folder.
+Note that we use Gist based image retrieval in this implementation.
+
+To run the demo, please first run 'ConstructDatabase.m' to prepare the database, and then run 'KNNMRF.m' to test the algorithm.
+
+If you have any questions or find any bugs, please email to jimeiyang@gmail.com.

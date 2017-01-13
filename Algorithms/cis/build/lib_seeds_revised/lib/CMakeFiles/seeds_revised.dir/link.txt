@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libseeds_revised.a  CMakeFiles/seeds_revised.dir/SeedsRevised.cpp.o CMakeFiles/seeds_revised.dir/Tools.cpp.o
+/usr/bin/ranlib ../../../lib/libseeds_revised.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpb_maxflow.a  CMakeFiles/pb_maxflow.dir/instances.o CMakeFiles/pb_maxflow.dir/QPBO_Elim.o CMakeFiles/pb_maxflow.dir/QPBO_LazyElim.o CMakeFiles/pb_maxflow.dir/QPBO_MaxFlow.o
+/usr/bin/ranlib libpb_maxflow.a
