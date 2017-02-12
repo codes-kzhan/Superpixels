@@ -19,14 +19,15 @@
 #include "mex.h"
 #include <math.h>
 #include <stdio.h>
-#include <opencv2/opencv.hpp>
+#include "compact_watershed.h"
+#include "opencv2/opencv.hpp"
 
 #include <vector>
 #include <iostream>
 #include "sys/time.h"
 
 #include "mex_helper.h"
-#include "../compact_watershed.h"
+
 
 using namespace std;
 using namespace cv;
@@ -51,24 +52,24 @@ void mexFunction(int nlhs, mxArray * plhs[], int nrhs, const mxArray * prhs[])
   // create opencv Mat from argument
   cv::Mat I;
   convertMx2Mat(prhs[0], I);
-  int n = (int)(mxGetScalar(prhs[1]));          // number of segments
-  double compVal = (double)(mxGetScalar(prhs[2])); // compactness parameter
-  
-  Mat seeds;
-  if(nrhs>=4)
-    convertMx2Mat(prhs[3], seeds);
-    
-
-  // ================== process ================  
-  cv::Mat B;
-  compact_watershed(I, B, n, compVal, seeds);
-  
-  // ================ create output ================
-  if( nlhs>0)
-  {
-    convertMat2Mx(B, plhs[0]);  
-  }
-    
+//    int n = (int)(mxGetScalar(prhs[1]));          // number of segments
+//    double compVal = (double)(mxGetScalar(prhs[2])); // compactness parameter
+//   
+//   Mat seeds;
+//   if(nrhs>=4)
+//     convertMx2Mat(prhs[3], seeds);
+//     
+// 
+//   // ================== process ================  
+//   cv::Mat B;
+//   compact_watershed(I, B, n, compVal, seeds);
+//   
+//   // ================ create output ================
+//   if( nlhs>0)
+//   {
+//     convertMat2Mx(B, plhs[0]);  
+//   }
+    mexPrintf("Hello");
 }
   
   
