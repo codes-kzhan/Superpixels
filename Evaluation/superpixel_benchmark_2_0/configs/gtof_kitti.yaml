@@ -1,0 +1,4 @@
+id: kitti
+segSaveDir: results
+kittiPath: /home/nepe/etit_arbeit/data_sets/kitti_motion/data_stereo_flow/training
+nImagePairs: 194

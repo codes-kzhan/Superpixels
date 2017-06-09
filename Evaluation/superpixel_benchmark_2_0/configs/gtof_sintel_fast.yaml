@@ -1,0 +1,8 @@
+id: sintel_test
+segSaveDir: results
+sintelPath: /home/nepe/etit_arbeit/data_sets/MPI-Sintel-complete/
+renderType: final
+nSintelScenes: 23
+nImagesPerScene: 50
+flowD_vec: 
+- 1

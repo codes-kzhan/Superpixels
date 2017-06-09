@@ -1,0 +1,13 @@
+id: box
+segSaveDir: results
+segParams:
+    path: .
+    segFct: '[L t] = segment_box(I, params.segParams.set{s}.n);'
+    set:
+    - {name: n50,  n: 50.0}
+    - {name: n100,  n: 100.0}
+    - {name: n250,  n: 200.0}
+    - {name: n500,  n: 500.0}
+    - {name: n1000,  n: 1000.0}
+    - {name: n2000,  n: 2000.0}
+    oneShotSetName: n250

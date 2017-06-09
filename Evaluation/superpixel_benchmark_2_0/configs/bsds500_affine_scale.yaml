@@ -1,0 +1,51 @@
+id: bsds500_affine_scale
+segSaveDir: results
+BSDS500_root: /home/nepe/etit_arbeit/data_sets/bsds500/BSR/BSDS500/data
+mode: test
+nImages: 200.0
+xLabel: Scale Factor
+affine_trafo:
+- name: s_0_25
+  parVal: 0.25
+  T:
+  - [0.25, 0.0,  0.0]
+  - [0.0,  0.25, 0.0]
+  - [0.0,  0.0,  1.0]
+- name: s_0_5
+  parVal: 0.5
+  T:
+  - [0.5, 0.0,  0.0]
+  - [0.0,  0.5, 0.0]
+  - [0.0,  0.0,  1.0]
+- name: s_0_66
+  parVal: 0.66
+  T:
+  - [0.66, 0.0,  0.0]
+  - [0.0,  0.66, 0.0]
+  - [0.0,  0.0,  1.0]
+- name: s_1
+  parVal: 1.0
+  T:
+  - [1.0, 0.0,  0.0]
+  - [0.0,  1.0, 0.0]
+  - [0.0,  0.0,  1.0]
+- name: s_1_5
+  parVal: 1.5
+  T:
+  - [1.5, 0.0, 0.0]
+  - [0.0, 1.5, 0.0]
+  - [0.0, 0.0, 1.0]
+- name: s_2
+  parVal: 2.0
+  T:
+  - [2.0, 0.0, 0.0]
+  - [0.0, 2.0, 0.0]
+  - [0.0, 0.0, 1.0]
+- name: s_4
+  parVal: 4.0
+  T:
+  - [4.0, 0.0, 0.0]
+  - [0.0, 4.0, 0.0]
+  - [0.0, 0.0, 1.0]
+
+

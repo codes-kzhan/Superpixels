@@ -1,0 +1,5 @@
+id: bsds500
+segSaveDir: results
+BSDS500_root: /home/nepe/etit_arbeit/data_sets/bsds500/BSR/BSDS500/data
+mode: test
+nImages: 200

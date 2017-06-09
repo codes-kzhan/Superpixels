@@ -1,0 +1,22 @@
+id: bsds500_noise_salt_pepper
+noiseImageSaveDir: data
+segSaveDir: results
+BSDS500_root: /home/nepe/etit_arbeit/data_sets/bsds500/BSR/BSDS500/data
+mode: test
+nImages: 200.0
+xLabel: Rate of Modified Pixels
+createNoisyImageFct: 'J=createSAPNoiseImage(I,noiseParams.noiseSet{nIdx}.parVal);'
+noiseSet:
+- name: d001
+  parVal: 0.01  
+- name: d0025
+  parVal: 0.025  
+- name: d005
+  parVal: 0.05
+- name: d01
+  parVal: 0.1  
+- name: d0175
+  parVal: 0.175  
+- name: d025
+  parVal: 0.25  
+

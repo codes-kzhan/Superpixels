@@ -1,0 +1,22 @@
+id: bsds500_noise_gaus
+noiseImageSaveDir: data
+segSaveDir: results
+BSDS500_root: /home/nepe/etit_arbeit/data_sets/bsds500/BSR/BSDS500/data
+mode: test
+nImages: 200.0
+xLabel: Standard Deviation of Gaussian Noise
+createNoisyImageFct: 'J=createGausNoiseImage(I,noiseParams.noiseSet{nIdx}.parVal);'
+noiseSet:
+- name: s1
+  parVal: 1
+- name: s2
+  parVal: 2
+- name: s5
+  parVal: 5
+- name: s10
+  parVal: 10
+- name: s25
+  parVal: 25
+- name: s50
+  parVal: 50
+
